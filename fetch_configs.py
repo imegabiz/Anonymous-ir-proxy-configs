@@ -5,6 +5,8 @@ import sys
 SOURCE_URL = "https://raw.githubusercontent.com/therealaleph/Iran-configs/refs/heads/main/ir_configs.txt"
 OUTPUT_FILE = "ir_configs.txt"
 SUPPORTED_PROTOCOLS = ("ss://", "vless://", "vmess://", "trojan://")
+BLOCKED_IPS = ("127.0.0.1",)
+
 
 def fetch_raw(url: str) -> str:
     """Download raw content from the URL."""
@@ -28,12 +30,19 @@ def try_base64_decode(text: str) -> str:
 
 
 def extract_configs(text: str) -> list[str]:
-    """Extract lines that start with a supported protocol."""
+    """Extract lines that start with a supported protocol and have no blocked IPs."""
     configs = []
+    skipped = 0
     for line in text.splitlines():
         line = line.strip()
-        if any(line.startswith(proto) for proto in SUPPORTED_PROTOCOLS):
-            configs.append(line)
+        if not any(line.startswith(proto) for proto in SUPPORTED_PROTOCOLS):
+            continue
+        if any(ip in line for ip in BLOCKED_IPS):
+            skipped += 1
+            continue
+        configs.append(line)
+    if skipped:
+        print(f"Skipped {skipped} config(s) with local/blocked IP.")
     return configs
 
 
