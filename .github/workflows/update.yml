@@ -31,7 +31,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ir_configs.txt
-          # Only commit when there is actually something new
+          git add ir_configs.txt ir_balancer.json
           git diff --staged --quiet || git commit -m "chore: update IR configs [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
