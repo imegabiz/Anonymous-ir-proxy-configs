@@ -40,7 +40,7 @@ def extract_configs(text):
 
 
 def rename_config(line, index):
-    new_name = f"IR - {index}"
+    new_name = f"Anonymous - IR - {index}"
     if "#" in line:
         base = line[:line.index("#")]
     else:
