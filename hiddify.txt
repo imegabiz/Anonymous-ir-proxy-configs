@@ -1,0 +1,1 @@
+psiphon://auto/?region=US
