@@ -4,4 +4,4 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-psiphon://auto/?region=US# Psiphon 🇺🇲
+psiphon://auto/?region=US#Psiphon 🇺🇲
