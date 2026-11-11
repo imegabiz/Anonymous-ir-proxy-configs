@@ -4,13 +4,15 @@
 
 ## 🚀 معرفی
 
-این مجموعه شامل ۷ پروژه‌ی متن‌باز برای دریافت، بررسی، مدیریت، تولید و تبدیل کانفیگ‌های پراکسی، توسعه‌ی ابزارهای مبتنی بر Cloudflare، اسکن IP، ساخت ربات‌های تلگرامی و پشتیبان‌گیری از مخازن GitHub است. هر پروژه با هدف مشخصی توسعه داده شده و کد منبع و جزئیات آن از طریق مخزن اختصاصی GitHub در دسترس است.
+این مجموعه شامل ۷ پروژه‌ی متن‌باز در زمینه‌ی دریافت، اعتبارسنجی، اسکن، مدیریت، تولید و تبدیل کانفیگ‌های پراکسی، ارائه‌ی سرویس‌های شبکه‌ای مبتنی بر Cloudflare و تهیه‌ی نسخه‌ی پشتیبان از مخازن عمومی GitHub است. یکی از پروژه‌ها نیز دسترسی به Telegram Bot API را از طریق Reverse Proxy فراهم می‌کند. برای هر پروژه، لینک مستقیم مخزن GitHub و در صورت وجود، لینک نسخه‌ی آنلاین آن درج شده است.
 
 ## 🛠 پروژه‌های موجود
 
 ### 1. 🔗 Multi Proxy Config Fetcher
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/multi-proxy-config-fetcher?style=social)](https://github.com/4n0nymou3/multi-proxy-config-fetcher) [![License](https://img.shields.io/github/license/4n0nymou3/multi-proxy-config-fetcher)](https://github.com/4n0nymou3/multi-proxy-config-fetcher)
+
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/multi-proxy-config-fetcher)
 
 🌐 داشبورد و خروجی‌های آنلاین: [مشاهده داشبورد](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)
 
@@ -31,6 +33,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/Clean-IP-Scanner?style=social)](https://github.com/4n0nymou3/Clean-IP-Scanner) [![License](https://img.shields.io/github/license/4n0nymou3/Clean-IP-Scanner)](https://github.com/4n0nymou3/Clean-IP-Scanner)
 
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/Clean-IP-Scanner)
+
 ابزاری سریع برای اسکن و ارزیابی IPهای متعلق به CDNهای مختلف؛ با تمرکز بر اجرا در Termux و دستگاه‌های اندرویدی ARM64.
 
 **✨ ویژگی‌های کلیدی:**
@@ -47,6 +51,8 @@
 ### 3. ⚙️ Tunnel Config Builder (TCB)
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/tcb?style=social)](https://github.com/4n0nymou3/tcb) [![License](https://img.shields.io/github/license/4n0nymou3/tcb)](https://github.com/4n0nymou3/tcb)
+
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/tcb)
 
 🌐 لینک دسترسی: [TCB Web App](https://4n0nymou3.github.io/tcb/)
 
@@ -68,6 +74,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/cloudflare-doh-proxy?style=social)](https://github.com/4n0nymou3/cloudflare-doh-proxy) [![License](https://img.shields.io/github/license/4n0nymou3/cloudflare-doh-proxy)](https://github.com/4n0nymou3/cloudflare-doh-proxy)
 
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/cloudflare-doh-proxy)
+
 یک سرویس پیشرفته‌ی DNS over HTTPS (DoH) که با استفاده از Cloudflare Workers و Cloudflare Pages قابل استقرار است و برای ارائه‌ی درخواست‌های DNS رمزنگاری‌شده، بهینه و پایدار طراحی شده است.
 
 **✨ ویژگی‌های کلیدی:**
@@ -85,6 +93,8 @@
 ### 5. 📡 Telegram API Proxy
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/Telegram-API-Proxy?style=social)](https://github.com/4n0nymou3/Telegram-API-Proxy) [![License](https://img.shields.io/github/license/4n0nymou3/Telegram-API-Proxy)](https://github.com/4n0nymou3/Telegram-API-Proxy)
+
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/Telegram-API-Proxy)
 
 یک Reverse Proxy مبتنی بر Cloudflare Workers برای Telegram Bot API که امکان ارتباط با API تلگرام را در شبکه‌هایی که دسترسی مستقیم به آن محدود شده فراهم می‌کند.
 
@@ -104,6 +114,8 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/proxy-core-builder?style=social)](https://github.com/4n0nymou3/proxy-core-builder) [![License](https://img.shields.io/github/license/4n0nymou3/proxy-core-builder)](https://github.com/4n0nymou3/proxy-core-builder)
 
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/proxy-core-builder)
+
 🌐 لینک دسترسی: [Proxy Core Builder Web App](https://4n0nymou3.github.io/proxy-core-builder/)
 
 یک ابزار تحت وب برای تبدیل کانفیگ‌های پراکسی میان فرمت‌های مختلف و استخراج لینک‌های پراکسی از کانفیگ‌های موجود.
@@ -122,6 +134,8 @@
 ### 7. 💾 GitHub Repo Backup
 
 [![GitHub stars](https://img.shields.io/github/stars/4n0nymou3/github-repo-backup?style=social)](https://github.com/4n0nymou3/github-repo-backup) [![License](https://img.shields.io/github/license/4n0nymou3/github-repo-backup)](https://github.com/4n0nymou3/github-repo-backup)
+
+📦 مخزن GitHub: [مشاهده‌ی ریپازیتوری](https://github.com/4n0nymou3/github-repo-backup)
 
 🌐 لینک دسترسی: [GitHub Public Repository Backup Tool](https://4n0nymou3.github.io/github-repo-backup/)
 
@@ -148,10 +162,11 @@
 
 توسعه‌دهنده: Anonymous (4n0nymou3)
 
-## 📬 ارتباط
+## 📬 راه‌های ارتباطی
 
-- [GitHub](https://github.com/4n0nymou3)
-- [X / Twitter](https://x.com/4n0nymou3)
+- **گیت‌هاب:** https://github.com/4n0nymou3
+- **اکس:** https://x.com/an0net
+- **ربات تلگرام:** https://t.me/An0nymou3Bot
 
 ---
 
